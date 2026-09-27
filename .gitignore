@@ -1,0 +1,37 @@
+# IDE files
+.idea/
+.vscode/
+.fallow/
+
+# Dotenv files (local secrets — never commit)
+.env*
+!.env.example
+
+# Misc
+*.txt
+*.log
+*.xls*
+*.tgz
+*.zip
+
+# Build artifacts
+dist/
+build/
+
+# Temporary folders
+*tmp/
+temp/
+.cache/
+
+# Local settings
+/.*/settings*.json
+
+# SDD engine (installed from a release archive, not committed)
+/.magic/
+/.*/skills/magic-*/
+/.*/*/magic*.md
+
+## Generated graph artifacts
+/.design/*graph*.*
+/.design/*cache*/
+/.design/wiki/
