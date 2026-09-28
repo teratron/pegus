@@ -20,3 +20,27 @@
 *.woff binary
 *.woff2 binary
 *.pdf binary
+
+# FreeCAD native documents and mesh assets are binary containers or meshes.
+*.FCStd binary
+*.FCBak binary
+*.FCStd[0-9]* binary
+*.FCStd.bak binary
+*.FCStd.tmp binary
+*.FCMesh binary
+*.stl binary
+*.glb binary
+*.3mf binary
+
+# FreeCAD macros and text-based CAD exchange formats use LF line endings.
+*.FCMacro text eol=lf
+*.FCScript text eol=lf
+*.FCMat text eol=lf
+*.step text eol=lf
+*.stp text eol=lf
+*.iges text eol=lf
+*.igs text eol=lf
+*.dxf text eol=lf
+*.obj text eol=lf
+*.mtl text eol=lf
+*.gltf text eol=lf

@@ -7,6 +7,10 @@
 .env*
 !.env.example
 
+# MCP client config: paths are machine-specific, never commit the real file
+.mcp.json
+!.mcp.json.example
+
 # Misc
 *.txt
 *.log
@@ -35,3 +39,10 @@ temp/
 /.design/*graph*.*
 /.design/*cache*/
 /.design/wiki/
+
+# FreeCAD backup and temporary files
+*.FCBak
+*.FCStd[0-9]*
+*.FCStd.bak
+*.FCStd.tmp
+*.FCMacro.tmp
